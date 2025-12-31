@@ -1,0 +1,17 @@
+<p id="text">example 1</p>
+<p id="text">example 2</p>
+<p id="text">example 3</p>
+
+<button onclick="changeText()">Press</button>
+
+<script>
+  function changeText() {
+    if (Math.random() < 0.5) {
+      const ps = document.querySelectorAll("#text");
+      const randomP = ps[Math.floor(Math.random() * ps.length)];
+
+      randomP.textContent = "changed!";
+      randomP.style.color = "red";
+    }
+  }
+</script>

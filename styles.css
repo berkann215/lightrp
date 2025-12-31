@@ -1,0 +1,22 @@
+.gunlist {
+  background-color: rgb(34, 34, 34);
+  padding: 20px;
+  border-style: solid;
+  border-color: maroon;
+}
+.text {
+  font-size: 20px;
+  color: red;
+  margin-top: 10px;
+}
+
+.button {
+  border-style: solid;
+  border-color: maroon;
+  border-radius: 30px;
+  background-color: rgb(83, 83, 83);
+  font-size: 100px;
+  position: absolute;
+  top: 800px;
+  left: 1600px;
+}
